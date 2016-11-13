@@ -1,0 +1,28 @@
+@media screen {
+    .js-placeholder-wrap {
+        position:relative;
+        zoom:1;
+    }
+    .js-placeholder-wrap input,
+    .js-placeholder-wrap textarea {
+        position:absolute !important;  /*ie6-7 hack input|textarea会继承display等于block父级的margin-left值*/
+        left:0 !important;
+        top:0 !important;
+        z-index:1;
+        float:none !important;
+        display:inline-block !important;
+        margin:0 !important;
+        vertical-align:baseline !important;
+        background-color:transparent !important;
+        background-image:url(about:blank);  /*设置背景图片使层z-index位于上面*/
+    }
+    .js-placeholder-wrap .placeholder {
+        position:absolute;
+        left:0;
+        top:0;
+        overflow:hidden;
+        color:#bfbfbf !important;
+        font-weight:normal !important;
+        font-style:normal !important;
+    }
+}

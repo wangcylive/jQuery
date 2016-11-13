@@ -1,0 +1,27 @@
+@media screen {
+    body{font-family:arial sans-serif;}
+    h1{margin:0;font-size:1.4em;line-height:40px;}
+    .clearfix:before,
+    .clearfix:after{content:"";display:table;}
+    .clearfix:after{clear:both;}
+    .clearfix{zoom:1;}
+
+    /*form表单样式*/
+    input::-webkit-input-placeholder{color:#bfbfbf;}
+    input::-moz-placeholder{color:#bfbfbf;opacity:1;}
+    input:-ms-input-placeholder{color:#bfbfbf;}
+    textarea::-webkit-input-placeholder{color:#bfbfbf;}
+    textarea::-moz-placeholder{color:#bfbfbf;opacity:1;}
+    textarea:-ms-input-placeholder{color:#bfbfbf;}
+    .placeholder{color:#bfbfbf;}
+    /*form表单样式*/
+
+    .user-info{}
+    .user-info legend{text-transform:uppercase;}
+    .user-info label{vertical-align:top;display:inline-block;width:80px;height:27px;line-height:27px;
+        text-align:right;text-transform:capitalize;}
+    .user-info input,
+    .user-info textarea{margin-left:10px;width:300px;padding:5px;border:1px solid #ccc;
+        font-size:12px;}
+    .user-info textarea{height:80px;overflow:auto;line-height:1.5;}
+}
